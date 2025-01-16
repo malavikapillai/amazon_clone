@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    font-family: arial;
+    box-sizing:border-box;
+    /*It changes how the width and height of an element are calculated by including the padding and border inside the specified width and height.*/
+}
+.navbar
+{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;  /*item to center*/
+    justify-content: space-evenly;
+}
+.nav-logo
+{
+    height:50px;
+    width: 100px;
+} 
+.logo
+{
+    background-image: url("amazon_logo.png");
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+.border
+{
+    border:2px solid transparent;
+}
+.border:hover{
+   border:2px solid white; 
+}
+
+/* box 2*/
+
+.add-first
+{
+    color: #CCCCCC;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.add-sec
+{
+    font-size: 1 rem;
+    margin: left 3px;;
+
+
+}
+.add-icon
+{
+    display: flex;
+    align-items: center;  /* makes it to center*/
+
+
+}
+
+/*box 3*/
+
+.nav-search
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width:500px;
+    height:40px;
+    border-radius:4px;
+}
+.search-select
+{
+    background-color: #F3F3F3;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+
+}
+.search-input
+{g
+    width:500px;
+    font-size: 1rem;
+    border:none;
+
+}
+.search-icon
+{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 151, 36);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+
+}
+/*box 4*/
+.nav-flag
+{
+    display:flex;
+    align-items: center;
+}
+.des{
+    margin:7px;
+    font-size:12px;
+}
+.flag-icon
+{
+    margin-left:10px;
+}
+
+/*box5*/
+.p1
+{
+   font-size: 0.5rem; 
+}
+.nav-second{
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.p2
+{
+   font-size: 0.5rem ; 
+}
+.nav-return{
+    justify-content: space-evenly;
+}
+
+/*box6*/
+.cart
+{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
